@@ -18,7 +18,7 @@ data-resume.tex           → Your experience, skills, education, projects
 main.tex                  → The template (don't touch this)
 AI_JOB_FIT_ANALYZER.md    → AI tool to check if you're a good fit for a job
 AI_RESUME_OPTIMIZER.md    → AI tool to improve your resume for a job
-Sample.pdf                → Example of what it looks like
+SampleResume.pdf                → Example of what it looks like
 ```
 
 ---
