@@ -12,17 +12,17 @@
   \end{itemize}
 }
 
-%----------- EDUCATION SECTION -----------
-\newcommand{\educationSection}{
-  \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Southwestern University}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
-    \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
-  \resumeSubHeadingListEnd
+%----------- TECHNICAL SKILLS SECTION -----------
+\newcommand{\skillsSection}{
+  \section{Technical Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+    }}
+  \end{itemize}
 }
 
 %----------- EXPERIENCE SECTION -----------
@@ -46,7 +46,7 @@
         \resumeItem{Communicate with managers to set up campus computers used on campus}
         \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
         \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
-    \resumeItemListEnd
+      \resumeItemListEnd
 
     \resumeSubheading
       {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
@@ -60,6 +60,19 @@
         \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
       \resumeItemListEnd
 
+  \resumeSubHeadingListEnd
+}
+
+%----------- EDUCATION SECTION -----------
+\newcommand{\educationSection}{
+  \section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Southwestern University}{Georgetown, TX}
+      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
+    \resumeSubheading
+      {Blinn College}{Bryan, TX}
+      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
   \resumeSubHeadingListEnd
 }
 
@@ -86,19 +99,6 @@
   \resumeSubHeadingListEnd
 }
 
-%----------- TECHNICAL SKILLS SECTION -----------
-\newcommand{\skillsSection}{
-  \section{Technical Skills}
-  \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
-    }}
-  \end{itemize}
-}
-
 %----------- CERTIFICATIONS SECTION -----------
 \newcommand{\certificationsSection}{
   \section{Certifications}
@@ -119,7 +119,4 @@
   \educationSection
   \projectsSection
   \certificationsSection
-  
-  % To change order, simply rearrange the commands above.
 }
-
